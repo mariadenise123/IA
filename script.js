@@ -91,7 +91,7 @@ function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.classList.add("botao"); // Adiciona classe para estilizar se tiver CSS
+        botaoAlternativas.classList.add("botao");
         botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
         caixaAlternativas.appendChild(botaoAlternativas);
     }
@@ -110,5 +110,4 @@ function mostraResultado() {
     caixaAlternativas.textContent = "";
 }
 
-// Inicia o jogo
 mostraPergunta();
