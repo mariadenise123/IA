@@ -1,20 +1,17 @@
 export const perguntas = [
 {
-
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
-            {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
-            },
-            {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
-            }           
-            
-        ]
+ enunciado:"Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue "   
+alternativas: [ 
+  { 
+    texto: "Isso é assustador!", 
+    afirmacao: [ "No início ficou com medo do que essa tecnologia pode fazer.", 
+      "Achou assustador pensar na velocidade na qual a tecnologia está avançando.", 
+    ], 
+    proxima:1,
     },
     {
+        texto:"Isso é maravilhoso!",
+        afirmacao:
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
